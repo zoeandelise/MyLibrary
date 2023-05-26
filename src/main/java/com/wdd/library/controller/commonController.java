@@ -139,6 +139,12 @@ public class commonController {
         return "listDisBack";
     }
 
+    @RequestMapping("/kaice")
+    public  String kaice() {
+        return "kaice";
+    }
+
+
     @RequestMapping("/listDisBackBook")
     @ResponseBody
     public String listDisBackBook(@RequestParam(value = "page", defaultValue = "1") Integer pageno,

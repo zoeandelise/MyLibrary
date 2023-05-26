@@ -78,7 +78,7 @@
         })
     });
     function forgetpsw(){
-        layer.msg('联系管理员(1710031565)或到图书馆进行重置');
+        layer.msg('联系管理员(3300601297)或到图书馆进行重置');
     }
 </script>
 </body>

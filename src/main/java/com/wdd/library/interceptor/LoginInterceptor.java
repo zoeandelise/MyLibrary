@@ -22,8 +22,6 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
         uri.add("/toRegister.htm");
         uri.add("/submitAddReader.do");
         uri.add("/doLogin.do");
-
-
         //请求路径
         String servletPath = request.getServletPath();
         if(uri.contains(servletPath)){

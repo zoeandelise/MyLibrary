@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: WDD
-  Date: 2019/6/15
-  Time: 10:26
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -41,11 +35,13 @@
             <li class="layui-nav-item"><a href="${APP_path}/reader/readerIndex.htm">读者列表</a></li>
             <li class="layui-nav-item"><a href="${APP_path}/listDisBackAdmin.htm">借阅管理</a></li>
             <li class="layui-nav-item"><a onclick="alterPwd('0');">修改密码</a></li>
+            <li class="layui-nav-item"><a href="${APP_path}/kaice.htm">ChatGPT</a></li>
         </c:if>
         <c:if test="${reader!=null}">
             <li class="layui-nav-item"><a href="${APP_path}/library/frontIndex.htm">图书列表</a></li>
             <li class="layui-nav-item"><a href="${APP_path}/listDisBack.htm">借阅记录</a></li>
             <li class="layui-nav-item"><a onclick="alterPwd('1');">修改密码</a></li>
+            <li class="layui-nav-item"><a href="${APP_path}/kaice.htm">ChatGPT</a></li>
         </c:if>
     </ul>
     <ul class="layui-nav layui-layout-right">
@@ -61,7 +57,7 @@
 </div>
 
 
-<div style="padding: 15px;">
+<div style="padding: 15px;"/>
 </body>
 <script src="${APP_path}/js/layui.js"></script>
 <script>

@@ -98,7 +98,7 @@
             ,url: '${APP_PATH}/reader/listReader.do' //数据接口
             ,title: '图书表'
             ,page: true
-            ,limit: 6
+            ,limit: 5
             ,limits: [5,10,15,20]
             ,cols: [[ //表头
                 {type: 'checkbox', fixed: 'left'}
