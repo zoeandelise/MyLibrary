@@ -10,6 +10,7 @@ import com.wdd.library.util.AjaxResult;
 import com.wdd.library.util.Const;
 import com.wdd.library.util.PageBean;
 import com.wdd.library.util.StringUtil;
+import jdk.nashorn.internal.objects.annotations.Getter;
 import org.activiti.engine.impl.util.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,6 +18,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
@@ -31,7 +33,6 @@ public class libraryController {
     private BookService bookService;
     @Autowired
     private LendInfoSerivce lendInfoSerivce;
-
 
     @RequestMapping("/index")
     public String index(HttpSession session){

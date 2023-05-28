@@ -92,9 +92,9 @@
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
+
   <servlet-mapping>
     <servlet-name>springmvc</servlet-name>
-
     <!--扩展匹配  访问静态资源时可以滤过DispatcherServlet-->
     <url-pattern>*.htm</url-pattern>
     <url-pattern>*.do</url-pattern>

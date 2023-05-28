@@ -12,7 +12,6 @@ public class StartSystemListener implements ServletContextListener {
         String contextPath = application.getContextPath();
         application.setAttribute("APP_PATH",contextPath);
 
-
     }
 
     @Override

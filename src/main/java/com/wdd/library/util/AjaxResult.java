@@ -1,5 +1,6 @@
 package com.wdd.library.util;
 
+
 public class AjaxResult {
     private boolean success;
     private String message;
